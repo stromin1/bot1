@@ -1,0 +1,16 @@
+{
+  "name": "railway-mc-bot",
+  "version": "1.0.0",
+  "description": "Minecraft bot that joins a server, wanders around and chats random words. Ready for Railway.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mineflayer": "^4.20.0"
+  }
+}
