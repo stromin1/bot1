@@ -1,1 +1,14 @@
-# Railway / Nixpacks: Python + Node
+# Railway / Nixpacks: Python + Node dono chahiye
+# (Python bot, Node sirf mineflayer bridge ke liye)
+
+[phases.setup]
+nixPkgs = ["python311", "nodejs_20"]
+
+[phases.install]
+cmds = [
+  "npm install --omit=dev",
+  "python3 -m pip install --no-cache-dir -r requirements.txt"
+]
+
+[start]
+cmd = "python3 bot.py"

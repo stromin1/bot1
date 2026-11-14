@@ -4,4 +4,6 @@
   "private": true,
   "description": "Node dependency for the Python bridge (mineflayer)",
   "dependencies": {
-    "mineflayer":
+    "mineflayer": "^4.20.0"
+  }
+}
